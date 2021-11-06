@@ -21,6 +21,7 @@ class ManageUserView(generics.RetrieveUpdateAPIView):
     serializer_class = UserSerializer
     authentication_classes = (authentication.TokenAuthentication,)
     permission_classes = (permissions.IsAuthenticated,)
+    http_method_names = ['get', 'patch', 'head', 'options']
 
     def get_object(self):
         """Retrieve and return authenticated user"""

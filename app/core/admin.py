@@ -5,6 +5,9 @@ from django.utils.translation import gettext as _
 
 
 class UserAdmin(BaseUserAdmin):
+    # Superadmin
+    # Email : arifhusaini97@gmail.com
+    # Password : Iarifhusaini971234.
     ordering = ['id']
     list_display = ['email', 'name']
     fieldsets = (
