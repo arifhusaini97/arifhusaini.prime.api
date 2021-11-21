@@ -1,0 +1,1691 @@
+[
+    {
+        "model": "core.country",
+        "pk": 1,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Malaysia"
+        }
+    },
+    {
+        "model": "core.country",
+        "pk": 2,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Singapore"
+        }
+    },
+    {
+        "model": "core.country",
+        "pk": 3,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Brunei"
+        }
+    },
+    {
+        "model": "core.country",
+        "pk": 4,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Indonesia"
+        }
+    },
+    {
+        "model": "core.country",
+        "pk": 5,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Philippines"
+        }
+    },
+    {
+        "model": "core.country",
+        "pk": 6,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Thailand"
+        }
+    },
+    {
+        "model": "core.country",
+        "pk": 7,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Cambodia"
+        }
+    },
+    {
+        "model": "core.country",
+        "pk": 8,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Vietnam"
+        }
+    },
+    {
+        "model": "core.country",
+        "pk": 9,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Japan"
+        }
+    },
+    {
+        "model": "core.country",
+        "pk": 10,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "China"
+        }
+    },
+    {
+        "model": "core.country",
+        "pk": 11,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "United Kingdom"
+        }
+    },
+    {
+        "model": "core.country",
+        "pk": 12,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "United State of America (USA)"
+        }
+    },
+    {
+        "model": "core.country",
+        "pk": 13,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Saudi Arabia"
+        }
+    },
+    {
+        "model": "core.country",
+        "pk": 14,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Pakistan"
+        }
+    },
+    {
+        "model": "core.country",
+        "pk": 15,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "India"
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 1,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Selangor",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 2,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Perlis",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 3,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Kedah",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 4,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Pulau Pinang (Penang)",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 5,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Perak",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 6,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Negeri Sembilan",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 7,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Melaka",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 8,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Johor",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 9,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Pahang",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 10,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Terengganu",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 11,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Kelantan",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 12,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Sabah",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 13,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Sarawak",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 14,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Kuala Lumpur",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 15,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Putrajaya",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 16,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Labuan",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 17,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Jakarta",
+            "country": 4
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 18,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Riau",
+            "country": 4
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 19,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Central Singapore",
+            "country": 2
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 20,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "North East",
+            "country": 2
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 21,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Brunei and Muara",
+            "country": 3
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 1,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Klang",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 2,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Kajang",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 3,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Rawang",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 4,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Selayang",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 5,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Shah Alam",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 6,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Subang",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 7,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Tanjung Karang",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 8,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Cyberjaya",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 9,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Kuala Selangor",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 10,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Petaling Jaya",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 11,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Bangi",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 12,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Batang Berjuntai",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 13,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Kangar",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 14,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Arau",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 15,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Kuala Perlis",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.category",
+        "pk": 1,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Artist"
+        }
+    },
+    {
+        "model": "core.category",
+        "pk": 2,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Politics"
+        }
+    },
+    {
+        "model": "core.category",
+        "pk": 3,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Businesses"
+        }
+    },
+    {
+        "model": "core.category",
+        "pk": 4,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Corporations"
+        }
+    },
+    {
+        "model": "core.category",
+        "pk": 5,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Higher Education Institutes"
+        }
+    },
+    {
+        "model": "core.category",
+        "pk": 6,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Restaurants"
+        }
+    },
+    {
+        "model": "core.category",
+        "pk": 7,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Brands"
+        }
+    },
+    {
+        "model": "core.category",
+        "pk": 8,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Malls"
+        }
+    },
+    {
+        "model": "core.category",
+        "pk": 9,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Pets"
+        }
+    },
+    {
+        "model": "core.category",
+        "pk": 10,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Foods"
+        }
+    },
+    {
+        "model": "core.subcategory",
+        "pk": 1,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Malaysian Actors",
+            "category": 1
+        }
+    },
+    {
+        "model": "core.subcategory",
+        "pk": 2,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Malaysian Singers",
+            "category": 1
+        }
+    },
+    {
+        "model": "core.subcategory",
+        "pk": 3,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Malaysian Political Figures",
+            "category": 2
+        }
+    },
+    {
+        "model": "core.subcategory",
+        "pk": 4,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Malaysian Political Parties",
+            "category": 2
+        }
+    },
+    {
+        "model": "core.subcategory",
+        "pk": 5,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "Malaysian Popular Industries",
+            "category": 3
+        }
+    },
+    {
+        "model": "core.topic",
+        "pk": 1,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "The one that is most popular",
+            "sub_category": 1
+        }
+    },
+    {
+        "model": "core.topic",
+        "pk": 2,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "The one that is most popular",
+            "sub_category": 2
+        }
+    },
+    {
+        "model": "core.topic",
+        "pk": 3,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "The one that is most popular",
+            "sub_category": 3
+        }
+    },
+    {
+        "model": "core.topic",
+        "pk": 4,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "The one that is most popular",
+            "sub_category": 4
+        }
+    },
+    {
+        "model": "core.topic",
+        "pk": 5,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "The one that is most popular",
+            "sub_category": 5
+        }
+    },
+    {
+        "model": "core.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$G9NzEXK50dTOl09usvFwvI$qUYLBij1fLDiD84M0raTtC8pZFrvUVtfntGQ5KqU2q0=",
+            "last_login": "1997-03-23T15:55:13Z",
+            "is_superuser": false,
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "email": "test1@gmail.com",
+            "name": "Test 1",
+            "is_staff": true,
+            "birthday": "1997-06-23",
+            "is_male": true,
+            "city": 1,
+            "working_id": "21020499",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "core.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$BrDrEPet6Icc892QTUAYGP$DvJouxCWciCxZ1CqtsDgao5jHOhBSgTT5LmISceZpwA=",
+            "last_login": "1992-01-28T19:24:15Z",
+            "is_superuser": false,
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "email": "test2@gmail.com",
+            "name": "Test 2",
+            "is_staff": false,
+            "birthday": "1998-11-21",
+            "is_male": false,
+            "city": 2,
+            "working_id": "20216105",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "core.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$YZedYQ2OK9WzuVvkgEAlkE$dumjrkxJt79CPRJC+lv0H58OkekQO4tiubNeB+iy1Ew=",
+            "last_login": "1995-02-24T01:08:37Z",
+            "is_superuser": false,
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "email": "test3@gmail.com",
+            "name": "Test 3",
+            "is_staff": true,
+            "birthday": "1999-11-21",
+            "is_male": true,
+            "city": 3,
+            "working_id": "19911202",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "core.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$FGNLJbfU1mrj4r8b9LTc5E$zqdcm7lyy+b+bTFfRcEPgbMyar4ukhlHuKcHAvBaCvo=",
+            "last_login": "1993-06-02T06:08:12Z",
+            "is_superuser": false,
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "email": "test4@gmail.com",
+            "name": "Test 4",
+            "is_staff": true,
+            "birthday": "1996-11-21",
+            "is_male": true,
+            "city": 4,
+            "working_id": "21073112",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "core.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$y5NcbXWOQg7yxDgqsE0R8y$irp5kzk25fPdFtbqFn9Mo+kuIuQkT/ZINo54srAIOsI=",
+            "last_login": "1990-01-12T21:01:53Z",
+            "is_superuser": false,
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "email": "test5@gmail.com",
+            "name": "Test 5",
+            "is_staff": false,
+            "birthday": "1997-03-21",
+            "is_male": false,
+            "city": 1,
+            "working_id": "19782221",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "core.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$4NDVWSSHIJzSVV0iQg1EwF$PZ9MT528RuUtmGjxIm9rcPTeLXIHdElGAlK8o8/yrjk=",
+            "last_login": "2021-11-21 04:27:58+00",
+            "is_superuser": true,
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "email": "arifhusaini97@gmail.com",
+            "name": "Nur Arif Husaini",
+            "is_staff": false,
+            "birthday": "1997-06-23",
+            "is_male": true,
+            "city": 1,
+            "working_id": "21020477",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "core.filter",
+        "pk": 1,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": false,
+            "name": "Filter_1_1_1",
+            "topic": 1,
+            "user": 1
+        }
+    },
+    {
+        "model": "core.filter",
+        "pk": 2,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "Filter_2_1_2",
+            "topic": 2,
+            "user": 1
+        }
+    },
+    {
+        "model": "core.filter",
+        "pk": 3,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "Filter_3_2_1",
+            "topic": 1,
+            "user": 2
+        }
+    },
+    {
+        "model": "core.filter",
+        "pk": 4,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "Filter_4_3_1",
+            "topic": 1,
+            "user": 3
+        }
+    },
+    {
+        "model": "core.filter",
+        "pk": 5,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "Filter_5_8_2",
+            "topic": 1,
+            "user": 4
+        }
+    },
+    {
+        "model": "core.candidate",
+        "pk": 1,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Candidate 1",
+            "description": "Without exactly simple ability large individual rule bill. Defense long near produce especially pattern who.\nThey station late push total specific. Eye radio usually commercial officer.",
+            "city": 1
+        }
+    },
+    {
+        "model": "core.candidate",
+        "pk": 2,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Candidate 2",
+            "description": "Worry onto she behind professor fight. Sport democratic expect big. Arrive partner risk me.\nPiece window relate news else you. Consider goal suffer rather.",
+            "city": 1
+        }
+    },
+    {
+        "model": "core.candidate",
+        "pk": 3,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Candidate 3",
+            "description": "Particular guy view one wind. Away that fine husband. Time usually economic nation most whether represent personal. Stop radio head contain.",
+            "city": 2
+        }
+    },
+    {
+        "model": "core.candidate",
+        "pk": 4,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Candidate 4",
+            "description": "Get better then goal. See threat produce network begin share purpose. Product final pull hope professional police.",
+            "city": 2
+        }
+    },
+    {
+        "model": "core.candidate",
+        "pk": 5,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Candidate 5",
+            "description": "Yeah entire look billion. Career report say catch everyone agency she. Would kitchen girl message exactly article door.",
+            "city": 3
+        }
+    },
+    {
+        "model": "core.candidate",
+        "pk": 6,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Candidate 6",
+            "description": "Special difference they consider performance our. Close yard should look ten better.\nForward fly to. Card a red important late.",
+            "city": 3
+        }
+    },
+    {
+        "model": "core.candidate",
+        "pk": 7,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Candidate 7",
+            "description": "Everybody physical dream possible strategy administration fight reality. Forward sort resource phone size.",
+            "city": 4
+        }
+    },
+    {
+        "model": "core.candidate",
+        "pk": 8,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Candidate 8",
+            "description": "Bag chance detail moment rate decade several. Create write body provide develop available.",
+            "city": 4
+        }
+    },
+    {
+        "model": "core.candidate",
+        "pk": 9,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Candidate 9",
+            "description": "Deal contain some into. Candidate question guess edge. Past director leave into democratic. Difficult fish research little light best.",
+            "city": 5
+        }
+    },
+    {
+        "model": "core.candidate",
+        "pk": 10,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Candidate 10",
+            "description": "Mind no arm wear democratic natural. View home look social too.\nAnything suffer condition media. Environment soon forget time listen media these.",
+            "city": 5
+        }
+    },
+    {
+        "model": "core.candidate",
+        "pk": 11,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Candidate 11",
+            "description": "Maintain establish movie bit believe. Man this material throughout establish. Store view already ok wish.\nGas early population office. Door again magazine wrong parent discussion so.",
+            "city": 6
+        }
+    },
+    {
+        "model": "core.candidate",
+        "pk": 12,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Candidate 12",
+            "description": "Candidate cut top range with whom as. Low employee small audience. Mouth despite agree hair.",
+            "city": 6
+        }
+    },
+    {
+        "model": "core.candidate",
+        "pk": 13,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Candidate 13",
+            "description": "Find value high control pretty marriage. Easy eye hundred wall.\nNight charge go try. Employee leader information financial myself everyone. Necessary east student hard forget commercial.",
+            "city": 7
+        }
+    },
+    {
+        "model": "core.candidate",
+        "pk": 14,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Candidate 14",
+            "description": "Mind fund place boy. According itself white share. Scientist focus environment hope bag realize.\nDirection show kitchen establish science upon surface. Measure day first happen road.",
+            "city": 8
+        }
+    },
+    {
+        "model": "core.candidate",
+        "pk": 15,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.939Z",
+            "modified": "2021-11-21T00:39:05.939Z",
+            "is_active": true,
+            "name": "Candidate 15",
+            "description": "Science country decision group force sometimes house. Budget which have both. Agreement hot while region.",
+            "city": 9
+        }
+    },
+    {
+        "model": "core.candidatetopic",
+        "pk": 1,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "candidate_topic_1_1_1",
+            "candidate": 1,
+            "topic": 1
+        }
+    },
+    {
+        "model": "core.candidatetopic",
+        "pk": 2,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "candidate_topic_2_2_2",
+            "candidate": 2,
+            "topic": 2
+        }
+    },
+    {
+        "model": "core.candidatetopic",
+        "pk": 3,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "candidate_topic_3_3_3",
+            "candidate": 3,
+            "topic": 3
+        }
+    },
+    {
+        "model": "core.candidatetopic",
+        "pk": 4,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "candidate_topic_4_4_4",
+            "candidate": 4,
+            "topic": 4
+        }
+    },
+    {
+        "model": "core.candidatetopic",
+        "pk": 5,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "candidate_topic_5_5_5",
+            "candidate": 5,
+            "topic": 5
+        }
+    },
+    {
+        "model": "core.candidatetopic",
+        "pk": 6,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "candidate_topic_6_6_1",
+            "candidate": 6,
+            "topic": 1
+        }
+    },
+    {
+        "model": "core.candidatetopic",
+        "pk": 7,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "candidate_topic_7_7_2",
+            "candidate": 7,
+            "topic": 2
+        }
+    },
+    {
+        "model": "core.candidatetopic",
+        "pk": 8,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "candidate_topic_8_8_3",
+            "candidate": 8,
+            "topic": 3
+        }
+    },
+    {
+        "model": "core.candidatetopic",
+        "pk": 9,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "candidate_topic_9_9_4",
+            "candidate": 9,
+            "topic": 4
+        }
+    },
+    {
+        "model": "core.candidatetopic",
+        "pk": 10,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "candidate_topic_10_10_5",
+            "candidate": 10,
+            "topic": 5
+        }
+    },
+    {
+        "model": "core.candidatetopic",
+        "pk": 11,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "candidate_topic_11_11_1",
+            "candidate": 11,
+            "topic": 1
+        }
+    },
+    {
+        "model": "core.candidatetopic",
+        "pk": 12,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "candidate_topic_12_12_2",
+            "candidate": 12,
+            "topic": 2
+        }
+    },
+    {
+        "model": "core.candidatetopic",
+        "pk": 13,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "candidate_topic_13_13_3",
+            "candidate": 13,
+            "topic": 3
+        }
+    },
+    {
+        "model": "core.candidatetopic",
+        "pk": 14,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "candidate_topic_14_14_4",
+            "candidate": 14,
+            "topic": 4
+        }
+    },
+    {
+        "model": "core.candidatetopic",
+        "pk": 15,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.941Z",
+            "modified": "2021-11-21T00:39:05.941Z",
+            "is_active": true,
+            "name": "candidate_topic_15_15_5",
+            "candidate": 15,
+            "topic": 5
+        }
+    },
+    {
+        "model": "core.vote",
+        "pk": 1,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "vote_1_1_1 1",
+            "is_vote": true,
+            "candidate": 1,
+            "user": 1
+        }
+    },
+    {
+        "model": "core.vote",
+        "pk": 2,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "vote_2_2_2 0",
+            "is_vote": false,
+            "candidate": 2,
+            "user": 2
+        }
+    },
+    {
+        "model": "core.vote",
+        "pk": 3,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "vote_3_3_3 0",
+            "is_vote": false,
+            "candidate": 3,
+            "user": 3
+        }
+    },
+    {
+        "model": "core.vote",
+        "pk": 4,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "vote_4_4_4 1",
+            "is_vote": true,
+            "candidate": 4,
+            "user": 4
+        }
+    },
+    {
+        "model": "core.vote",
+        "pk": 5,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "vote_5_5_5 1",
+            "is_vote": true,
+            "candidate": 5,
+            "user": 5
+        }
+    },
+    {
+        "model": "core.vote",
+        "pk": 6,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "vote_6_6_1 0",
+            "is_vote": false,
+            "candidate": 6,
+            "user": 1
+        }
+    },
+    {
+        "model": "core.vote",
+        "pk": 7,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "vote_7_7_2 1",
+            "is_vote": true,
+            "candidate": 7,
+            "user": 2
+        }
+    },
+    {
+        "model": "core.vote",
+        "pk": 8,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "vote_8_8_3 1",
+            "is_vote": true,
+            "candidate": 8,
+            "user": 3
+        }
+    },
+    {
+        "model": "core.vote",
+        "pk": 9,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "vote_9_9_4 1",
+            "is_vote": true,
+            "candidate": 9,
+            "user": 4
+        }
+    },
+    {
+        "model": "core.vote",
+        "pk": 10,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "vote_10_10_5 1",
+            "is_vote": true,
+            "candidate": 10,
+            "user": 5
+        }
+    },
+    {
+        "model": "core.vote",
+        "pk": 11,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "vote_11_11_1 1",
+            "is_vote": true,
+            "candidate": 11,
+            "user": 1
+        }
+    },
+    {
+        "model": "core.vote",
+        "pk": 12,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "vote_12_12_2 1",
+            "is_vote": true,
+            "candidate": 12,
+            "user": 2
+        }
+    },
+    {
+        "model": "core.vote",
+        "pk": 13,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "vote_13_13_3 1",
+            "is_vote": true,
+            "candidate": 13,
+            "user": 3
+        }
+    },
+    {
+        "model": "core.vote",
+        "pk": 14,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "vote_14_14_4 0",
+            "is_vote": false,
+            "candidate": 14,
+            "user": 4
+        }
+    },
+    {
+        "model": "core.vote",
+        "pk": 15,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "vote_15_15_5 1",
+            "is_vote": true,
+            "candidate": 15,
+            "user": 5
+        }
+    },
+    {
+        "model": "core.favorite",
+        "pk": 1,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "favorite_1_1_1",
+            "candidate": 1,
+            "user": 1
+        }
+    },
+    {
+        "model": "core.favorite",
+        "pk": 2,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "favorite_2_2_2",
+            "candidate": 2,
+            "user": 2
+        }
+    },
+    {
+        "model": "core.favorite",
+        "pk": 3,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "favorite_3_3_3",
+            "candidate": 3,
+            "user": 3
+        }
+    },
+    {
+        "model": "core.favorite",
+        "pk": 4,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "favorite_4_4_4",
+            "candidate": 4,
+            "user": 4
+        }
+    },
+    {
+        "model": "core.favorite",
+        "pk": 5,
+        "fields": {
+            "deleted": null,
+            "created": "2021-11-21T00:39:05.940Z",
+            "modified": "2021-11-21T00:39:05.940Z",
+            "is_active": true,
+            "name": "favorite_5_5_1",
+            "candidate": 5,
+            "user": 1
+        }
+    }
+]

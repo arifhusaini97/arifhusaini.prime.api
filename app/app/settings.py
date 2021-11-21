@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-=p6=#cbkz#keww$p&bq598q*br$jw+m1gjqviv5pth^t40d#2i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.13']
+ALLOWED_HOSTS = ['localhost', '192.168.1.13']
 
 
 # Application definition
@@ -38,10 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_seed',
     'rest_framework',
     'rest_framework.authtoken',
+    'safedelete',
     'core',
-    'app_user'
+    'app_user',
     'app_vote',
 ]
 
@@ -136,3 +138,5 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'core.User'
+
+SAFE_DELETE_INTERPRET_UNDELETED_OBJECTS_AS_CREATED = True
