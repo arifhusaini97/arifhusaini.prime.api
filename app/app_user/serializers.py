@@ -1,15 +1,40 @@
 from django.contrib.auth import get_user_model, authenticate
 from django.utils.translation import ugettext_lazy as _
 from rest_framework import serializers
+from core.models import User
 
 
 class UserSerializer(serializers.ModelSerializer):
     """Serializer for the user model"""
 
+    password_confirmation = serializers.CharField(
+        min_length=5,
+        write_only=True,
+        style={'input_type': 'password'}
+    )
+
+    def validate(self, data):
+        if data.get('password') != data.get('password_confirmation'):
+            raise serializers.ValidationError("Those passwords don't match.")
+
+        if data.get('password_confirmation'):
+            del data['password_confirmation']
+
+        return data
+
     class Meta:
-        model = get_user_model()
-        fields = ('email', 'password', 'name')
-        extra_kwargs = {'password': {'write_only': True, 'min_length': 5}}
+        # model = get_user_model()
+        model = User
+        exclude = ('is_active', 'groups', 'user_permissions',
+                   'deleted', 'last_login',)
+        extra_kwargs = {
+            'name': {'min_length': 5, 'max_length': 255},
+            'email': {
+                'min_length': 5, 'max_length': 255, },
+            'working_id': {'max_length': 255, 'required': False},
+            'password': {'write_only': True, 'min_length': 5,
+                         'style': {'input_type': 'password'}},
+        }
 
     def create(self, validated_data):
         """Create a new user with encrypted password and return it"""
