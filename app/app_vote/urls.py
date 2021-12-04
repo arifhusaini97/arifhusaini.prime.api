@@ -6,6 +6,7 @@ from app_vote import views
 router = DefaultRouter()
 
 router.register('favorite', views.FavoriteViewSet)
+router.register('vote', views.VoteViewSet)
 router.register('candidate', views.CandidateViewSet)
 router.register('candidates/deleted',
                 views.CandidateDeletedAPIView, basename='candidates-deleted')
