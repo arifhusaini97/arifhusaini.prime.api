@@ -1,5 +1,5 @@
 from app_vote import serializers
-from core.models import Favorite, Candidate
+from core.models import Favorite, Candidate, Vote
 from rest_framework import viewsets, mixins, generics
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated, \
@@ -38,6 +38,13 @@ class FavoriteViewSet(BaseVoteAttrViewSet):
 
     queryset = Favorite.objects.all()
     serializer_class = serializers.FavoriteSerializer
+
+
+class VoteViewSet(BaseVoteAttrViewSet):
+    """Manage favorites in the database"""
+
+    queryset = Vote.objects.all()
+    serializer_class = serializers.VoteSerializer
 
 
 class CandidateViewSet(viewsets.ModelViewSet):
