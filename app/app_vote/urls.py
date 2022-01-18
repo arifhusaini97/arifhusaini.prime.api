@@ -8,16 +8,18 @@ router = DefaultRouter()
 router.register('favorite', views.FavoriteViewSet)
 router.register('vote', views.VoteViewSet)
 router.register('candidate', views.CandidateViewSet)
-router.register('candidates/deleted',
+router.register('candidates',
+                views.CandidateAllAPIView, basename='candidates')
+router.register('candidates-deleted',
                 views.CandidateDeletedAPIView, basename='candidates-deleted')
 
 app_name = 'app_vote'
 
 urlpatterns = [
     path('', include(router.urls)),
-    path(
-        "candidates/",
-        views.CandidateAllAPIView.as_view(),
-        name='candidates'
-    ),
+    # path(
+    #     "candidates/",
+    #     views.CandidateAllAPIView.as_view(),
+    #     name='candidates'
+    # ),
 ]

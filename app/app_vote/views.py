@@ -1,6 +1,6 @@
 from app_vote import serializers
 from core.models import Favorite, Candidate, Vote
-from rest_framework import viewsets, mixins, generics
+from rest_framework import viewsets, mixins
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated, \
     IsAuthenticatedOrReadOnly
@@ -68,12 +68,13 @@ class CandidateViewSet(viewsets.ModelViewSet):
         return queryset.order_by('-name').distinct()
 
 
-class CandidateAllAPIView(generics.ListAPIView):
+class CandidateAllAPIView(viewsets.ModelViewSet):
     """Manage deleted candidates"""
 
     authentication_classes = (TokenAuthentication,)
     permission_classes = (IsAuthenticatedOrReadOnly,)
     serializer_class = serializers.CandidateSerializer
+    http_method_names = ['get']
 
     def get_queryset(self):
         return Candidate.objects.all_with_deleted()
